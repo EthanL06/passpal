@@ -51,10 +51,10 @@ const Options = ({
 
   return (
     <div className="flex flex-col w-full uppercase text-xl dark:text-white">
-      <div className="flex flex-col gap-y-2 mb-8">
-        <div className="flex justify-between">
+      <div className="flex flex-col gap-y-3 mb-8">
+        <div className="flex justify-between items-center">
           <span>Character Length</span>
-          <span>{length}</span>
+          <span className="text-3xl">{length}</span>
         </div>
         <input
           ref={ref}
